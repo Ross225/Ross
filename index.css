@@ -1,0 +1,72 @@
+ body {
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(187, 0, 255)
+       
+ }
+
+        div {
+            border: inherit;
+        }
+       
+        
+            .hi{background-color: green;}
+            button{background-color: red;}
+
+            button .hi {background-color: yellow;}
+   p{
+                text-align: center;
+                color: blue;
+                }
+
+                #para1 {
+                    text-align: center;
+                    color: rgb(255, 0, 157);
+                    }
+
+                    .center {
+                        text-align: center;
+                        color: rgb(255, 0, 0);
+                        }
+
+                        
+                            h1,p {
+                                text-align: center;
+                                    color: rgb(15, 201, 198);
+                            }
+
+                                h2,p {
+                                    text-align: center;
+                                    color: rgb(166, 18, 229);
+                                    }
+
+                                    h3,p {
+                                        text-align: center;
+                                        color: rgb(12, 2, 17);
+                                        }
+
+                                    a:link {
+                                        color: rgb(53, 64, 206);
+                                        font-weight: bold
+                                        }
+                                        a:visited {
+                                        color: rgb(255, 60, 0);
+                                        font-weight: bold
+                                        }
+
+                                        a:hover {
+                                            background-color: rgb(12, 194, 197);
+                                            padding: 2px
+                                            }
+                                            div:hover a{
+                                            background-color: steelblue;
+                                            color: white;
+                                            }  
+
+                                            a:active {
+                                                border: 2px solid #FF0000;
+                                                padding: 2px
+                                                }
+                                                
+                                                text-align:center;
+                                            
